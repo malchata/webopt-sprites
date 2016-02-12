@@ -1,0 +1,58 @@
+@media (min-width: @bpDesktop){
+	header{
+		padding: .5rem;
+	}
+
+	#logo{
+		height: 1.75rem;
+	}
+
+	nav{
+		width: auto;
+		height: auto;
+
+		&:hover .nav{
+			will-change: auto;
+		}
+	}
+
+	#content{
+		justify-content: center;
+	}
+
+	#mainColumn{
+		padding: 0 percentage(1 / 30) 0 0;
+	}
+
+	#navIcon{
+		display: none;
+	}
+
+	.nav{
+		position: static;
+		flex-flow: row nowrap;
+		height: auto;
+		opacity: 1;
+
+		&:hover .navItem{
+			will-change: background-color, color;
+		}
+	}
+
+	.navItem{
+		border-radius: 0 .5em;
+		background: transparent;
+		transition: .25s background-color ease-out, .25s color ease-out;
+		margin: 0 0 0 1rem;
+
+		&:hover{
+			background-color: @white;
+			color: @red;
+		}
+	}
+
+	.destinations{
+		border-left: .0625rem solid @grey;
+		border-right: .0625rem solid @grey;
+	}
+}

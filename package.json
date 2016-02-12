@@ -1,0 +1,20 @@
+{
+  "name": "webopt-sprites",
+  "version": "1.0.0",
+  "description": "Sprite exercise for the book Web Optimization in Action",
+  "main": "http.js",
+  "dependencies": {
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "less": "^2.5.3",
+    "less-plugin-clean-css": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Wagner <jeremy.l.wagner@gmail.com> (http://jeremywagner.me)",
+  "license": "ISC"
+}

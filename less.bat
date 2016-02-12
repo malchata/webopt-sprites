@@ -1,0 +1,1 @@
+node_modules/less/bin/lessc --clean-css less/main.less css/styles.min.css
